@@ -1,0 +1,191 @@
+---------------------------------------------------------------------
+----------------------- START -----------------------
+##################### START - clients: 10 | size: 500 | rate: 500000 | messages: 60000 #####################
+./sdkperf_c -cu=solace-cloud-client@bcx20-sandbox -cp=ejs1m7h0vrag06mibj61rk4cn2 -cip=mr2cedkxkcgdo7.messaging.solace.cloud:55555 -cc=10 -mr=500000 -msa=500 -mn=60000 -pql=queue1,queue2,queue3,queue4,queue5,queue6,queue7,queue8,queue9,queue10 -mt=persistent -pe -sql=queue1,queue2,queue3,queue4,queue5,queue6,queue7,queue8,queue9,queue10
+
+CPU mask currently set to: 0x000f.  To modify use linux cmd: taskset
+CPU Speed calculated (Hz): 2693618667
+Client naming used:
+	logging ID   = 000001
+	username     = solace-cloud-client
+	vpn          = bcx20-sandbox
+	client names = sdk generated.
+
+APP NOTICE Mon Mar 30 10:49:19.373 2020 PerfClientCollection.cpp:95          (7eff992fa740) Master random seed used : 134790397
+APP NOTICE Mon Mar 30 10:49:19.884 2020 AbstractClientCollection.cpp:1758    (7eff992fa740) Router capabilities: (PFG=1, SFG=1, TEMP=1, JNDI=1, Z=1)
+Waiting for publishing to complete.  Ctrl-c to exit. 
+
+Allow clients to finish receiving. Waiting: 2 secs
+
+-----------------------------------------------------
+Aggregate Msgs Sent Stats (Total # clients: 10)
+Total Messages transmitted                 = 60000
+Computed publish rate (msg/sec)            = 33920.42
+
+-----------------------------------------------------
+Aggregate Msgs Recv Stats (Total # clients: 10)
+Total Messages received across all clients = 60000
+Computed receive rate (msg/sec aggregate)  = 33912.08
+Messages received with discard indication  = 0
+
+CPU usage = 40.28%
+
+
+##################### START - clients: 10 | size: 1000 | rate: 500000 | messages: 60000 #####################
+./sdkperf_c -cu=solace-cloud-client@bcx20-sandbox -cp=ejs1m7h0vrag06mibj61rk4cn2 -cip=mr2cedkxkcgdo7.messaging.solace.cloud:55555 -cc=10 -mr=500000 -msa=1000 -mn=60000 -pql=queue1,queue2,queue3,queue4,queue5,queue6,queue7,queue8,queue9,queue10 -mt=persistent -pe -sql=queue1,queue2,queue3,queue4,queue5,queue6,queue7,queue8,queue9,queue10
+
+CPU mask currently set to: 0x000f.  To modify use linux cmd: taskset
+CPU Speed calculated (Hz): 2693621256
+Client naming used:
+	logging ID   = 000001
+	username     = solace-cloud-client
+	vpn          = bcx20-sandbox
+	client names = sdk generated.
+
+APP NOTICE Mon Mar 30 10:49:25.220 2020 PerfClientCollection.cpp:95          (7f023f23c740) Master random seed used : 93188287
+APP NOTICE Mon Mar 30 10:49:25.643 2020 AbstractClientCollection.cpp:1758    (7f023f23c740) Router capabilities: (PFG=1, SFG=1, TEMP=1, JNDI=1, Z=1)
+Waiting for publishing to complete.  Ctrl-c to exit. 
+
+Allow clients to finish receiving. Waiting: 2 secs
+
+-----------------------------------------------------
+Aggregate Msgs Sent Stats (Total # clients: 10)
+Total Messages transmitted                 = 60000
+Computed publish rate (msg/sec)            = 32820.55
+
+-----------------------------------------------------
+Aggregate Msgs Recv Stats (Total # clients: 10)
+Total Messages received across all clients = 60000
+Computed receive rate (msg/sec aggregate)  = 32812.71
+Messages received with discard indication  = 0
+
+CPU usage = 47.38%
+
+
+##################### START - clients: 10 | size: 2500 | rate: 5000000 | messages: 400000 #####################
+./sdkperf_c -cu=solace-cloud-client@bcx20-sandbox -cp=ejs1m7h0vrag06mibj61rk4cn2 -cip=mr2cedkxkcgdo7.messaging.solace.cloud:55555 -cc=10 -mr=5000000 -msa=2500 -mn=400000 -pql=queue1,queue2,queue3,queue4,queue5,queue6,queue7,queue8,queue9,queue10 -mt=persistent -pe -sql=queue1,queue2,queue3,queue4,queue5,queue6,queue7,queue8,queue9,queue10
+
+CPU mask currently set to: 0x000f.  To modify use linux cmd: taskset
+CPU Speed calculated (Hz): 2693621489
+Client naming used:
+	logging ID   = 000001
+	username     = solace-cloud-client
+	vpn          = bcx20-sandbox
+	client names = sdk generated.
+
+APP NOTICE Mon Mar 30 10:49:31.094 2020 PerfClientCollection.cpp:95          (7fd80748b740) Master random seed used : 240314180
+APP NOTICE Mon Mar 30 10:49:31.503 2020 AbstractClientCollection.cpp:1758    (7fd80748b740) Router capabilities: (PFG=1, SFG=1, TEMP=1, JNDI=1, Z=1)
+Waiting for publishing to complete.  Ctrl-c to exit. 
+
+Allow clients to finish receiving. Waiting: 2 secs
+
+-----------------------------------------------------
+Aggregate Msgs Sent Stats (Total # clients: 10)
+Total Messages transmitted                 = 400000
+Computed publish rate (msg/sec)            = 25556.66
+
+-----------------------------------------------------
+Aggregate Msgs Recv Stats (Total # clients: 10)
+Total Messages received across all clients = 400000
+Computed receive rate (msg/sec aggregate)  = 25556.27
+Messages received with discard indication  = 0
+
+CPU usage = 39.23%
+
+
+##################### START - clients: 10 | size: 5000 | rate: 5000000 | messages: 400000 #####################
+./sdkperf_c -cu=solace-cloud-client@bcx20-sandbox -cp=ejs1m7h0vrag06mibj61rk4cn2 -cip=mr2cedkxkcgdo7.messaging.solace.cloud:55555 -cc=10 -mr=5000000 -msa=5000 -mn=400000 -pql=queue1,queue2,queue3,queue4,queue5,queue6,queue7,queue8,queue9,queue10 -mt=persistent -pe -sql=queue1,queue2,queue3,queue4,queue5,queue6,queue7,queue8,queue9,queue10
+
+CPU mask currently set to: 0x000f.  To modify use linux cmd: taskset
+CPU Speed calculated (Hz): 2693620756
+Client naming used:
+	logging ID   = 000001
+	username     = solace-cloud-client
+	vpn          = bcx20-sandbox
+	client names = sdk generated.
+
+APP NOTICE Mon Mar 30 10:49:50.752 2020 PerfClientCollection.cpp:95          (7fa149b28740) Master random seed used : 91683438
+APP NOTICE Mon Mar 30 10:49:51.170 2020 AbstractClientCollection.cpp:1758    (7fa149b28740) Router capabilities: (PFG=1, SFG=1, TEMP=1, JNDI=1, Z=1)
+Waiting for publishing to complete.  Ctrl-c to exit. 
+
+Allow clients to finish receiving. Waiting: 2 secs
+
+-----------------------------------------------------
+Aggregate Msgs Sent Stats (Total # clients: 10)
+Total Messages transmitted                 = 400000
+Computed publish rate (msg/sec)            = 13337.54
+
+-----------------------------------------------------
+Aggregate Msgs Recv Stats (Total # clients: 10)
+Total Messages received across all clients = 400000
+Computed receive rate (msg/sec aggregate)  = 13334.02
+Messages received with discard indication  = 0
+
+CPU usage = 25.84%
+
+
+##################### START - clients: 10 | size: 10000 | rate: 500000 | messages: 200000 #####################
+./sdkperf_c -cu=solace-cloud-client@bcx20-sandbox -cp=ejs1m7h0vrag06mibj61rk4cn2 -cip=mr2cedkxkcgdo7.messaging.solace.cloud:55555 -cc=10 -mr=500000 -msa=10000 -mn=200000 -pql=queue1,queue2,queue3,queue4,queue5,queue6,queue7,queue8,queue9,queue10 -mt=persistent -pe -sql=queue1,queue2,queue3,queue4,queue5,queue6,queue7,queue8,queue9,queue10
+
+CPU mask currently set to: 0x000f.  To modify use linux cmd: taskset
+CPU Speed calculated (Hz): 2693619630
+Client naming used:
+	logging ID   = 000001
+	username     = solace-cloud-client
+	vpn          = bcx20-sandbox
+	client names = sdk generated.
+
+APP NOTICE Mon Mar 30 10:50:24.733 2020 PerfClientCollection.cpp:95          (7f480944d740) Master random seed used : 219359885
+APP NOTICE Mon Mar 30 10:50:25.250 2020 AbstractClientCollection.cpp:1758    (7f480944d740) Router capabilities: (PFG=1, SFG=1, TEMP=1, JNDI=1, Z=1)
+Waiting for publishing to complete.  Ctrl-c to exit. 
+
+Allow clients to finish receiving. Waiting: 2 secs
+
+-----------------------------------------------------
+Aggregate Msgs Sent Stats (Total # clients: 10)
+Total Messages transmitted                 = 200000
+Computed publish rate (msg/sec)            = 6715.18
+
+-----------------------------------------------------
+Aggregate Msgs Recv Stats (Total # clients: 10)
+Total Messages received across all clients = 200000
+Computed receive rate (msg/sec aggregate)  = 6712.42
+Messages received with discard indication  = 0
+
+CPU usage = 20.21%
+
+
+##################### START - clients: 10 | size: 50000 | rate: 500000 | messages: 20000 #####################
+./sdkperf_c -cu=solace-cloud-client@bcx20-sandbox -cp=ejs1m7h0vrag06mibj61rk4cn2 -cip=mr2cedkxkcgdo7.messaging.solace.cloud:55555 -cc=10 -mr=500000 -msa=50000 -mn=20000 -pql=queue1,queue2,queue3,queue4,queue5,queue6,queue7,queue8,queue9,queue10 -mt=persistent -pe -sql=queue1,queue2,queue3,queue4,queue5,queue6,queue7,queue8,queue9,queue10
+
+CPU mask currently set to: 0x000f.  To modify use linux cmd: taskset
+CPU Speed calculated (Hz): 2693620884
+Client naming used:
+	logging ID   = 000001
+	username     = solace-cloud-client
+	vpn          = bcx20-sandbox
+	client names = sdk generated.
+
+APP NOTICE Mon Mar 30 10:50:58.624 2020 PerfClientCollection.cpp:95          (7fdad8b93740) Master random seed used : 30112516
+APP NOTICE Mon Mar 30 10:50:59.069 2020 AbstractClientCollection.cpp:1758    (7fdad8b93740) Router capabilities: (PFG=1, SFG=1, TEMP=1, JNDI=1, Z=1)
+Waiting for publishing to complete.  Ctrl-c to exit. 
+
+Allow clients to finish receiving. Waiting: 2 secs
+
+-----------------------------------------------------
+Aggregate Msgs Sent Stats (Total # clients: 10)
+Total Messages transmitted                 = 20000
+Computed publish rate (msg/sec)            = 1539.62
+
+-----------------------------------------------------
+Aggregate Msgs Recv Stats (Total # clients: 10)
+Total Messages received across all clients = 20000
+Computed receive rate (msg/sec aggregate)  = 1473.32
+Messages received with discard indication  = 0
+
+CPU usage = 14.64%
+
+
+----------------------- DONE -----------------------
+----------------------- ALL DONE -----------------------
+---------------------------------------------------------------------
